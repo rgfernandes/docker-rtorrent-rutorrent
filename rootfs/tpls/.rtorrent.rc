@@ -42,7 +42,7 @@ pieces.hash.on_completion.set = yes
 
 # Encryption options, set to none (default) or any combination of the following:
 # allow_incoming, try_outgoing, require, require_RC4, enable_retry, prefer_plaintext
-protocol.encryption.set = allow_incoming,try_outgoing,enable_retry
+protocol.encryption.set = require,require_RC4,allow_incoming,try_outgoing
 
 # Set the umask for this process, which is applied to all files created by the program
 system.umask.set = 0022
